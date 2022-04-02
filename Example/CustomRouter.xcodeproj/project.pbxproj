@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		06D48480FB707833A49FCFE5 /* Pods_CustomRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E4508FB1D269659E8321DE /* Pods_CustomRouter_Example.framework */; };
 		1FE86D9298E9FD266B6B4F23 /* Pods_CustomRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984C6A028B5D261D72D7D899 /* Pods_CustomRouter_Tests.framework */; };
+		43DFE63E27F8253C00265233 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DFE63B27F8253C00265233 /* TestViewController.swift */; };
+		43DFE63F27F8253C00265233 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DFE63C27F8253C00265233 /* LoginViewController.swift */; };
+		43DFE64027F8253C00265233 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DFE63D27F8253C00265233 /* PaymentViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43DFE63B27F8253C00265233 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		43DFE63C27F8253C00265233 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		43DFE63D27F8253C00265233 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		47E7CF1300F42F962647A1D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		504501ACE32625FE5C087438 /* Pods-CustomRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-CustomRouter_Example/Pods-CustomRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5AE5CB7B8A10544A4CB18D51 /* Pods-CustomRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomRouter_Example/Pods-CustomRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 		607FACD21AFB9204008FA782 /* Example for CustomRouter */ = {
 			isa = PBXGroup;
 			children = (
+				43DFE63C27F8253C00265233 /* LoginViewController.swift */,
+				43DFE63D27F8253C00265233 /* PaymentViewController.swift */,
+				43DFE63B27F8253C00265233 /* TestViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -332,7 +341,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DFE63F27F8253C00265233 /* LoginViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				43DFE64027F8253C00265233 /* PaymentViewController.swift in Sources */,
+				43DFE63E27F8253C00265233 /* TestViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

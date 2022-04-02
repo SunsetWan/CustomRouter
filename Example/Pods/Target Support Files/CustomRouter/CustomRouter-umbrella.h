@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YYClassInfo.h"
 
 FOUNDATION_EXPORT double CustomRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char CustomRouterVersionString[];
