@@ -19,6 +19,7 @@
     "ios": "11.0"
   },
   "swift_versions": "5.0",
+  "module_name": "CustomRouter",
   "source_files": "CustomRouter/Classes/**/*",
   "swift_version": "5.0"
 }

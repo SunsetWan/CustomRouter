@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CustomRouter: 463184741e15fc87af5ef7ca84efb9edd5fea0b3
+  CustomRouter: d73c21d67196ab154b5af911408e350b6687c399
 
 PODFILE CHECKSUM: e5bf181d28f23a40fc3464e01f0d3a2e28ccedc3
 

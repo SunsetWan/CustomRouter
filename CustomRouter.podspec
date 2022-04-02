@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
+  s.module_name = 'CustomRouter'
 
   s.source_files = 'CustomRouter/Classes/**/*'
   
