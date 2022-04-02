@@ -1,0 +1,6 @@
+framework module CustomRouter {
+  umbrella header "CustomRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

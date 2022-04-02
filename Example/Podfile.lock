@@ -1,0 +1,16 @@
+PODS:
+  - CustomRouter (0.1.0)
+
+DEPENDENCIES:
+  - CustomRouter (from `../`)
+
+EXTERNAL SOURCES:
+  CustomRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomRouter: 463184741e15fc87af5ef7ca84efb9edd5fea0b3
+
+PODFILE CHECKSUM: e5bf181d28f23a40fc3464e01f0d3a2e28ccedc3
+
+COCOAPODS: 1.10.1

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		47E7CF1300F42F962647A1D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		47E7CF1300F42F962647A1D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		504501ACE32625FE5C087438 /* Pods-CustomRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-CustomRouter_Example/Pods-CustomRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5AE5CB7B8A10544A4CB18D51 /* Pods-CustomRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomRouter_Example/Pods-CustomRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CustomRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		92E4508FB1D269659E8321DE /* Pods_CustomRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		984C6A028B5D261D72D7D899 /* Pods_CustomRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0C5829B480A85ECC92B69C /* Pods-CustomRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-CustomRouter_Tests/Pods-CustomRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CE395F012300B40899BD2DB6 /* CustomRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomRouter.podspec; path = ../CustomRouter.podspec; sourceTree = "<group>"; };
+		CE395F012300B40899BD2DB6 /* CustomRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomRouter.podspec; path = ../CustomRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD6D6CC1B54760E1A5D7C9A4 /* Pods-CustomRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CustomRouter_Tests/Pods-CustomRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAFDB0F6B6318CB123A7D7E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FAFDB0F6B6318CB123A7D7E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				DD6D6CC1B54760E1A5D7C9A4 /* Pods-CustomRouter_Tests.debug.xcconfig */,
 				CA0C5829B480A85ECC92B69C /* Pods-CustomRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 32V635PZ8Q;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,6 +479,7 @@
 			baseConfigurationReference = 504501ACE32625FE5C087438 /* Pods-CustomRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32V635PZ8Q;
 				INFOPLIST_FILE = CustomRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = 5AE5CB7B8A10544A4CB18D51 /* Pods-CustomRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32V635PZ8Q;
 				INFOPLIST_FILE = CustomRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
