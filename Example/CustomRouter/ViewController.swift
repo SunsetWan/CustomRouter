@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     private func setRouteParameter() {
-        let parameter = RouteParameter(scheme: "native", fullPath: "first ViewController")
+        let parameter = RouteParameter(scheme: "native", fullPath: "firstViewController")
         routeParameter = parameter
     }
     

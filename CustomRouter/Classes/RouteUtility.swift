@@ -48,12 +48,8 @@ struct RouteUtility {
         guard let start = start else {
             return nil
         }
-
-        guard let routeParameter = start.routeParameter else {
-            return nil
-        }
-
-        if routeParameter.fullPath == path {
+        
+        if start.routeParameter?.fullPath ?? "" == path {
             ret = start
             return ret
         }
@@ -63,10 +59,14 @@ struct RouteUtility {
             return _findViewControllerByPath(path, start: selectedViewController)
         } else if let navigationController = start as? UINavigationController {
             navigationController.viewControllers.forEach { childViewController in
-                ret = _findViewControllerByPath(path, start: childViewController)
+                if let result = _findViewControllerByPath(path, start: childViewController) {
+                    ret = result
+                }
             }
         } else if let presentedViewController = start.presentedViewController {
-            ret = _findViewControllerByPath(path, start: presentedViewController)
+            if let result = _findViewControllerByPath(path, start: presentedViewController) {
+                ret = result
+            }
         }
 
         return ret
